@@ -5,19 +5,31 @@ BCH Explorer
 
 ## 1. Setup Enviroment:
 You need a Ubuntu 16.04 to run Blockchain Explorer API
+
 Install Zeromq version 4.2.2 by following the instruction:
 (https://gist.github.com/katopz/8b766a5cb0ca96c816658e9407e83d00)
+
 Install NVM: 
-(wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash)
-Install Nodejs version: v4.8.7: nvm install v4.8.7
-Install PM2: npm install pm2 -g
+```bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+```
+Install Nodejs version: v4.8.7: 
+```bash
+nvm install v4.8.7
+```
+Install PM2: 
+```bash
+npm install pm2 -g
+```
 
 ## 2. Setup Blockchain Explorer API
-    1. Clone the bchexplorer to your machine
+
+1.Clone the bchexplorer to your machine
+    
 ```bash
 $ git clone git@github.com:flash-coin/bchexplorer.git
 ```
-    2. Untar bchexplorer.tar.gz
+2.Untar bchexplorer.tar.gz
 
 ```bash
 $ cd bchexplorer
